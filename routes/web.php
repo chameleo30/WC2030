@@ -66,6 +66,15 @@ Route::get('/test', function () {
     ]);
 });
 Route::post('/chat', [AIController::class, 'chat'])->middleware('throttle:30,1');
+
+Route::get('/debug-db', function () {
+    return [
+        'host' => env('DB_HOST'),
+        'port' => env('DB_PORT'),
+        'db'   => env('DB_DATABASE'),
+        'user' => env('DB_USERNAME'),
+    ];
+});
 });
 
 
