@@ -354,8 +354,9 @@ $total=0
 		</div>
 	</div>
 	<!-- end logo carousel -->
+	@include('partiels.chat')
 
-	@include('partiels.footer')
+  @include('partiels.footer')
 
 	@include('partiels.js_links')
 

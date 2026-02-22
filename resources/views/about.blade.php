@@ -241,6 +241,7 @@
 		</div>
 	</div>
 	<!-- end logo carousel -->
+	@include('partiels.chat')
 
 	@include('partiels.footer')
 

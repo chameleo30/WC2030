@@ -173,6 +173,7 @@
 	</div>
 	end google map section -->
 
+	@include('partiels.chat')
 
 	@include('partiels.footer')
 	
